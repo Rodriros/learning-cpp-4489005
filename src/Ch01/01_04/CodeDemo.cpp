@@ -6,10 +6,10 @@
 #include <string>
 
 int main(){
-    std::string str;
-    std::cout << "Enter your name: " << std::flush;
-    std::cin >> str;
-    std::cout << "Nice to meet you, " << str << "!" << std::endl;
+    std::string var_1;
+    std::cout << "Please, enter your name: " << std::flush;
+    std::cin >> var_1;
+    std::cout << "Nice to meet you, " << var_1 << "!" << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
